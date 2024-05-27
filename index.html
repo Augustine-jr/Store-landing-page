@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>tailwind css</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<header>
+    <nav class="bg-[rgb(31,41,55)]">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4 leading-5 px-23">
+                <div>
+                    <a href="#" class="text-white text-[2rem] font-bold font-[impact]">WATCHES</a>
+                </div>
+                <div class="hidden md:block">
+                    <p class="flex space-x-4 text-white text-[2rem] text-2xl font-[impact]">TOP BRAND WATCHES AT BEST
+                        PRICE</p>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <section class="flex flex-col md:flex-row items-center md:justify-between md:px-16 bg-black">
+        <div class="md:w-1/2 text-white">
+            <h1 class="text-[5rem] mb-4 uppercase font-[impact]">New Arrivals</h1>
+            <p class="mb-4">
+                These aren't just watches,they're statements of identity.They reflect your personality, your passions, and your
+                aspirations.With features that cater to every lifestyle,Our new arrivals empower you to make every moment count
+            </p>
+            <button class="bg-[rgb(31,41,55)] mt-4 text-white px-4 py-2 rounded-lg hover:bg-transparent hover:border-white-300 hover:border duration-300">Shop Now</button>
+        </div>
+        <div class="md:w-1/2">
+            <img src="./res/watch.png" alt="Amazing Product" class="w-full">
+        </div>
+    </section>
+
+    <!-- Logo Gallery -->
+    <section class="container mx-auto mt-8 px-6">
+        <div class="flex flex-wrap justify-between space-x-4 space-y-4 md:space-y-0">
+            <img src="./res/cartier.png" alt="Logo 1" class="w-20 h-20 object-contain">
+            <img src="./res/casio.png" alt="Logo 2" class="w-20 h-20 object-contain">
+            <img src="./res/dior.png" alt="Logo 3" class="w-20 h-20 object-contain">
+            <img src="./res/patek.png" alt="Logo 4" class="w-20 h-20 object-contain">
+            <img src="./res/rolex.png" alt="Logo 5" class="w-20 h-20 object-contain">
+            <img src="./res/seiko.png" alt="Logo 6" class="w-20 h-20 object-contain">
+            <img src="./res/tag.png" alt="Logo 7" class="w-20 h-20 object-contain">
+            <img src="./res/tiffany.png" alt="Logo 8" class="w-20 h-20 object-contain">
+        </div>
+    </section>
+    <div class="container mx-auto px-4 py-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+    
+            <!-- Section 1 -->
+            <section class="bg-black text-white p-4 flex flex-col items-center">
+                <div class="w-full flex flex-col md:flex-row items-center md:justify-between">
+                    <div class="md:w-1/2">
+                        <h1 class="text-[2rem] md:text-[2rem] lg:text-[2rem] xl:text-[3rem] uppercase font-[impact]">
+                            Men's watches</h1>
+                    </div>
+                    <div class="md:w-1/2">
+                        <img src="./res/menwatch.png" alt="Amazing Product" class="w-full">
+                    </div>
+                </div>
+            </section>
+    
+            <!-- Section 2 -->
+            <section class="bg-gray-800 text-white p-4 flex flex-col items-center">
+                <div class="w-full flex flex-col md:flex-row items-center md:justify-between">
+                    <div class="md:w-1/2">
+                        <h1 class="text-[2rem] md:text-[2rem] lg:text-[2rem] xl:text-[3rem] uppercase font-[impact]">
+                            Ladies' watches</h1>
+                    </div>
+                    <div class="md:w-1/2">
+                        <img src="./res/lC.png" alt="Featured Product" class="w-full">
+                    </div>
+                </div>
+            </section>
+    
+            <!-- Section 3 -->
+            <section class="bg-black text-white p-4 flex flex-col items-center">
+                <div class="w-full h-full flex flex-col md:flex-row items-center md:justify-between">
+                    <div class="md:w-1/2">
+                        <h1 class="text-[2rem] md:text-[2rem] lg:text-[2rem] xl:text-[3rem] uppercase font-[impact]">
+                            50% OFF</h1>
+                    </div>
+                    <div class="md:w-1/2">
+                        <img src="./res/handwatch.png" alt="Best Seller Product" class="w-full">
+                    </div>
+                </div>
+            </section>
+    
+        </div>
+    </div>
+    <footer>
+        <div class="bg-[rgb(31,41,55)] w-full] h-8"></div>
+    </footer>
+</main>
+</body>
+</html>
